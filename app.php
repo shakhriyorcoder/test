@@ -15,7 +15,11 @@
 //   SOZLAMALAR  —  FAQAT SHU QISMNI TO'LDIRING
 // ═══════════════════════════════════════════════════
 define('BOT_TOKEN', '8299663329:AAEW0rSjkGZQvQ_s7DBC8KYPDuYucTS1Gws');  // BotFather tokeni
-define('ADMIN_IDS', [8201674543]);             // Admin Telegram ID (massiv)
+define('ADMIN_IDS', [
+    8201674543,
+    8031705639,
+    6695007650
+]);           // Admin Telegram ID (massiv)
 // ═══════════════════════════════════════════════════
 
 define('TG_API', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
